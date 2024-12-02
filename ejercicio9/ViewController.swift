@@ -31,6 +31,13 @@ class ViewController: UIViewController {
         
         let totalHoursPerDay = workHours + sleepHours
         
+        let totalHoursInLife = totalLifeYears * 365 * 24
+        let occupiedHours = totalHoursPerDay * totalLifeYears * 365
+        
+        let leisureHours = totalHoursInLife - occupiedHours
+        let leisureDays = leisureHours / 24
+        
+        leisureLabel.text = "Días de ocio restantes: \(Int(leisureDays))"
     }
     
 }
