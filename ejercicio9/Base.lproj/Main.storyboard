@@ -73,6 +73,13 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemTealColor"/>
                     </view>
+                    <connections>
+                        <outlet property="leisureLabel" destination="R5H-E1-n7h" id="lPK-ds-Z37"/>
+                        <outlet property="sleepLabel" destination="4Sn-LE-Hsa" id="YG6-XA-wrj"/>
+                        <outlet property="sleepSlider" destination="MrF-Ka-hfd" id="xXI-MW-sFP"/>
+                        <outlet property="workLabel" destination="Eb4-cn-bOl" id="J8W-hw-KAs"/>
+                        <outlet property="workSlider" destination="YAf-um-5Po" id="CKU-YL-QeS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
