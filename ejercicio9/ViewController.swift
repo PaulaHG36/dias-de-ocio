@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // valor inicial de los sliders
+        
         workSlider.value = 8
         sleepSlider.value = 8
         
@@ -25,6 +25,13 @@ class ViewController: UIViewController {
         sleepLabel.text = "Horas de sueño: \(Int(sleepSlider.value))"
     }
 
-
+    @IBAction func calculateLeisure(_ sender: UIButton) {
+        let workHours = Double(workSlider.value)
+        let sleepHours = Double(sleepSlider.value)
+        
+        let totalHoursPerDay = workHours + sleepHours
+        
+    }
+    
 }
 

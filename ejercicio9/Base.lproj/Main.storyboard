@@ -68,6 +68,9 @@
                                 <state key="normal" title="Calcular">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="calculateLeisure:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SWS-U5-xZa"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
