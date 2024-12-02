@@ -42,6 +42,9 @@ class ViewController: UIViewController {
     @IBAction func workSliderChanged(_ sender: UISlider) {
         updateLabels()
     }
+    @IBAction func sleepSliderChanged(_ sender: UISlider) {
+        updateLabels()
+    }
     
 }
 
