@@ -20,8 +20,8 @@
                                 <rect key="frame" x="148" y="16169" width="118" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </slider>
-                            <slider opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="24" translatesAutoresizingMaskIntoConstraints="NO" id="MrF-Ka-hfd">
-                                <rect key="frame" x="18" y="332" width="378" height="30"/>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="24" translatesAutoresizingMaskIntoConstraints="NO" id="MrF-Ka-hfd">
+                                <rect key="frame" x="18" y="332" width="378" height="31"/>
                                 <connections>
                                     <action selector="sleepSliderChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="kXn-9u-V1U"/>
                                 </connections>
@@ -56,8 +56,8 @@
                                     <action selector="workSliderChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="dJf-Oj-aKB"/>
                                 </connections>
                             </slider>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R5H-E1-n7h">
-                                <rect key="frame" x="20" y="478" width="374" height="24"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R5H-E1-n7h">
+                                <rect key="frame" x="20" y="479" width="374" height="21.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -77,6 +77,7 @@
                         <color key="backgroundColor" systemColor="systemTealColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Eb4-cn-bOl" secondAttribute="trailing" constant="20" id="0dm-Ji-hbs"/>
+                            <constraint firstItem="MrF-Ka-hfd" firstAttribute="top" secondItem="4Sn-LE-Hsa" secondAttribute="bottom" constant="35" id="2PN-AP-diz"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="OJ5-cv-VoE" secondAttribute="bottom" constant="246" id="5dd-5r-Gns"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="R5H-E1-n7h" secondAttribute="trailing" constant="20" id="5hv-tj-HXm"/>
                             <constraint firstItem="YAf-um-5Po" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="8qo-0f-kHn"/>
