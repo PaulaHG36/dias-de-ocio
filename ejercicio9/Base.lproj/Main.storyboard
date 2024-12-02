@@ -20,20 +20,20 @@
                                 <rect key="frame" x="148" y="16169" width="118" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </slider>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="MrF-Ka-hfd">
-                                <rect key="frame" x="148" y="332" width="118" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <slider opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="24" translatesAutoresizingMaskIntoConstraints="NO" id="MrF-Ka-hfd">
+                                <rect key="frame" x="18" y="332" width="378" height="30"/>
+                                <connections>
+                                    <action selector="sleepSliderChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="kXn-9u-V1U"/>
+                                </connections>
                             </slider>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eb4-cn-bOl">
-                                <rect key="frame" x="20" y="103" width="374" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eb4-cn-bOl">
+                                <rect key="frame" x="20" y="103" width="374" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Sn-LE-Hsa">
-                                <rect key="frame" x="20" y="272" width="374" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Sn-LE-Hsa">
+                                <rect key="frame" x="20" y="273" width="374" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -50,23 +50,20 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                             </button>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="YAf-um-5Po">
-                                <rect key="frame" x="146" y="161" width="118" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="24" translatesAutoresizingMaskIntoConstraints="NO" id="YAf-um-5Po">
+                                <rect key="frame" x="18" y="161" width="378" height="31"/>
                                 <connections>
                                     <action selector="workSliderChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="dJf-Oj-aKB"/>
                                 </connections>
                             </slider>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R5H-E1-n7h">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R5H-E1-n7h">
                                 <rect key="frame" x="20" y="478" width="374" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OJ5-cv-VoE">
-                                <rect key="frame" x="164" y="576" width="83" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OJ5-cv-VoE">
+                                <rect key="frame" x="164" y="586" width="83" height="30"/>
                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                 <state key="normal" title="Calcular">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -78,6 +75,25 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemTealColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Eb4-cn-bOl" secondAttribute="trailing" constant="20" id="0dm-Ji-hbs"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="OJ5-cv-VoE" secondAttribute="bottom" constant="246" id="5dd-5r-Gns"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="R5H-E1-n7h" secondAttribute="trailing" constant="20" id="5hv-tj-HXm"/>
+                            <constraint firstItem="YAf-um-5Po" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="8qo-0f-kHn"/>
+                            <constraint firstItem="Eb4-cn-bOl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="G6F-L8-UEx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="YAf-um-5Po" secondAttribute="trailing" constant="20" id="NLV-6a-s7S"/>
+                            <constraint firstItem="4Sn-LE-Hsa" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Q3i-Fi-gMO"/>
+                            <constraint firstItem="R5H-E1-n7h" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="QhZ-d5-DeF"/>
+                            <constraint firstItem="4Sn-LE-Hsa" firstAttribute="top" secondItem="YAf-um-5Po" secondAttribute="bottom" constant="82" id="S35-rq-Wzy"/>
+                            <constraint firstItem="YAf-um-5Po" firstAttribute="top" secondItem="Eb4-cn-bOl" secondAttribute="bottom" constant="34" id="b0C-Mh-h85"/>
+                            <constraint firstItem="OJ5-cv-VoE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="164" id="cF1-ns-CVf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="OJ5-cv-VoE" secondAttribute="trailing" constant="167" id="cII-Vz-vL4"/>
+                            <constraint firstItem="R5H-E1-n7h" firstAttribute="top" secondItem="MrF-Ka-hfd" secondAttribute="bottom" constant="117" id="dou-Wj-7aW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4Sn-LE-Hsa" secondAttribute="trailing" constant="20" id="ftv-hi-dmx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="MrF-Ka-hfd" secondAttribute="trailing" constant="20" id="jkT-9V-3kF"/>
+                            <constraint firstItem="MrF-Ka-hfd" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="olp-jv-TDe"/>
+                            <constraint firstItem="Eb4-cn-bOl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="59" id="xsh-Xa-kf5"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="leisureLabel" destination="R5H-E1-n7h" id="lPK-ds-Z37"/>
