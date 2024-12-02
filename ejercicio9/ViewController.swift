@@ -39,6 +39,9 @@ class ViewController: UIViewController {
         
         leisureLabel.text = "Días de ocio restantes: \(Int(leisureDays))"
     }
+    @IBAction func workSliderChanged(_ sender: UISlider) {
+        updateLabels()
+    }
     
 }
 
